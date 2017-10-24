@@ -1,0 +1,4 @@
+#!/bin/bash
+           /home/aliu/Downloads/jdk1.8.0_73/jre/bin/java -version 
+                          echo 
+           /home/aliu/Downloads/jdk1.8.0_73/jre/bin/java -javaagent:/home/aliu/Research/Projects/DATE-ConFu/confu-master/build/jar/rragent.jar $JVM_ARGS -Xbootclasspath/p:/home/aliu/Research/Projects/DATE-ConFu/confu-master/classes:/home/aliu/Research/Projects/DATE-ConFu/confu-master/jars/java-cup-11a.jar: rr.RRMain $*
